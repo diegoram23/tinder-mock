@@ -1,6 +1,8 @@
 body{
     margin: 0;
     min-height: 100vh;
+    background-color: #ffffff;
+    color: #f8f8f8;
 }
 
 .icon {
@@ -12,13 +14,13 @@ body{
     height: 1.7rem;
     width: 1.7rem;
     border-radius: 2rem;
-    padding: 1.37em 2.7em;
+    padding: 0.8em 2.6em;
     background: linear-gradient(#FA695A
     100%, #F83375
     100%);
     color: blue
 }
-.icons-container{
+nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -29,9 +31,32 @@ body{
 .img-container {
     border: 1px solid black;
     padding: 0 0.3em;
+    position: relative
 }
+
 .img{
 max-width: 100%;
 max-height: 100%;
 object-fit: contain;
+}
+
+.img-text-info {
+    position: absolute;
+    top: 80%;
+    left: 8%;
+}
+
+.bio {
+    color: #b7b7b7;
+    font-size: 1.1rem;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.bottom-icon {
+    height: 7rem;
 }
