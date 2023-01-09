@@ -10,7 +10,7 @@ const profileData = [
     
     {
         name: "Bella",
-        avatar: "images/profile-image.jpg",
+        avatar: "images/dog2.jpg",
         age: 43,
         bio: "Yup, that's my owner.",
         hasBeenSwiped: false,
@@ -19,7 +19,7 @@ const profileData = [
     
     {
         name: "Teddy",
-        avatar: "images/profile-image.jpg",
+        avatar: "images/dog3.jpg",
         age: 30,
         bio: "How you doin?",
         hasBeenSwiped: false,
