@@ -96,8 +96,12 @@ function renderNewProfile() {
 
 //Renders message when user reaches end of array
 function renderEndMessage() {
-    if (profileIndex === 3)
+    if (profileIndex === 3) {
         document.getElementById('content').innerHTML = currentProfile.getEndMessageHtml()
+        document.getElementById('like').style.display = 'none'
+        document.getElementById('dislike').style.display = 'none'
+
+    }
 }
 
 function renderProfile() {
