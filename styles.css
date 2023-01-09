@@ -5,19 +5,20 @@ body {
     color: #f8f8f8;
     padding: 0 0.1em;
     font-family: 'Poppins', sans-serif;
+    background: linear-gradient(#FA695A 50%, #F83375 100%);
 }
 
 .icon {
     height: 2.1rem;
     width: 2.1rem;
 }
-
 .paw {
     height: 1.7rem;
     width: 1.7rem;
     border-radius: 2rem;
     padding: 0.8em 2.6em;
-    background: linear-gradient(#FA695A 100%, #F83375 100%);
+    background: linear-gradient(rgb(243, 210, 21) 75%, rgb(180, 155, 10) 100%
+    );
 }
 
 nav {
@@ -70,6 +71,14 @@ nav {
 .bottom-icon {
     height: 7rem;
 }
+
+.end {
+    text-align: center;
+    font-size: 1.7rem;
+    padding:2.8em;
+    color: rgb(80, 77, 77);
+}
+
 
 .hidden{
     display: none;

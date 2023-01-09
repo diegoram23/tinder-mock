@@ -18,7 +18,8 @@ Object.assign(this, data)
     }
 
     this.getEndMessageHtml = function () {
-        return `<h1> The end</h1>`
+        return `<h1 class='end'>You reached the end of your likes
+        <br><br>Come back tomorrow to find your match</h1>`
     }
 }
 
