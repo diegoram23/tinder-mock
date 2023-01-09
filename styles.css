@@ -9,7 +9,7 @@ body {
     max-width: 410px;
 }
 
-
+/*--------Styles for intro animation-----------*/
 
 .intro {
 position: fixed;
@@ -49,34 +49,6 @@ transition: 1s;
     opacity: 0;
     transition: ease-in-out 0.5s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*------Header--------*/
 .icon {
