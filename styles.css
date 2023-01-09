@@ -4,6 +4,7 @@ body {
     background-color: #ffffff;
     color: #f8f8f8;
     padding: 0 0.1em;
+    font-family: 'Poppins', sans-serif;
 }
 
 .icon {
@@ -42,8 +43,9 @@ nav {
 
 .img-text-info {
     position: absolute;
-    top: 80%;
-    left: 5%;
+    top: 85%;
+    left: 7%;
+    margin: 0;
 }
 
 .bio {
