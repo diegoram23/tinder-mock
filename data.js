@@ -12,7 +12,7 @@ const profileData = [
         name: "Bella",
         avatar: "images/profile-image.jpg",
         age: 43,
-        bio: "Yup, that's my owner. U can meet him if you want",
+        bio: "Yup, that's my owner.",
         hasBeenSwiped: false,
         hasBeenLiked: false
     },

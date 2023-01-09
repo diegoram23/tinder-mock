@@ -16,6 +16,10 @@ Object.assign(this, data)
         <span class='bio'>${bio}</span></h2>
     </div>`
     }
+
+    this.getEndMessageHtml = function () {
+        return `<h1> The end</h1>`
+    }
 }
 
 
