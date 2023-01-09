@@ -1,7 +1,7 @@
 const profileData = [
      {
         name: "Rex",
-        avatar: "images/tacoT.jpg",
+        avatar: "images/profile-image.jpg",
         age: 25,
         bio: "Art. Literature. Natural wine. Yoga.",
         hasBeenSwiped: false,
@@ -10,7 +10,7 @@ const profileData = [
     
     {
         name: "Bella",
-        avatar: "images/georgeT.jpg",
+        avatar: "images/profile-image.jpg",
         age: 43,
         bio: "Yup, that's my owner.",
         hasBeenSwiped: false,
@@ -19,7 +19,7 @@ const profileData = [
     
     {
         name: "Teddy",
-        avatar: "images/diegoT.jpg",
+        avatar: "images/profile-image.jpg",
         age: 30,
         bio: "How you doin?",
         hasBeenSwiped: false,
