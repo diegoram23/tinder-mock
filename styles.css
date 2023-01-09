@@ -41,6 +41,14 @@ nav {
     border-radius: 1em;
 }
 
+.liked-badge, .disliked-badge{
+    position: absolute;
+    transform: rotate(-30deg);
+    height: 5em;
+    top: 8%;
+    left: 7%;
+}
+
 .img-text-info {
     position: absolute;
     top: 85%;
@@ -61,4 +69,8 @@ nav {
 
 .bottom-icon {
     height: 7rem;
+}
+
+.hidden{
+    display: none;
 }
