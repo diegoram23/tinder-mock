@@ -1,5 +1,5 @@
 const profileData = [
-     {
+    {
         name: "Rex",
         avatar: "images/profile-image.jpg",
         age: 25,
@@ -7,7 +7,7 @@ const profileData = [
         hasBeenSwiped: false,
         hasBeenLiked: false
     },
-    
+
     {
         name: "Bella",
         avatar: "images/dog2.jpg",
@@ -16,7 +16,7 @@ const profileData = [
         hasBeenSwiped: false,
         hasBeenLiked: false
     },
-    
+
     {
         name: "Teddy",
         avatar: "images/dog3.jpg",

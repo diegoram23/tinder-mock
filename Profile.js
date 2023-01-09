@@ -1,10 +1,11 @@
 
-function Profile(data) {
+class Profile {
+    constructor(data) {
+        Object.assign(this, data)
 
-Object.assign(this, data)
+    }
 
-
-    this.getProfileHtml = function () {
+    getProfileHtml() {
         const { avatar, name, age, bio } = this
 
         return `<div class="img-container">
@@ -17,7 +18,7 @@ Object.assign(this, data)
     </div>`
     }
 
-    this.getEndMessageHtml = function () {
+    getEndMessageHtml() {
         return `<h1 class='end'>You reached the end of your likes
         <br><br>Come back tomorrow to find your match</h1>`
     }
