@@ -12,6 +12,7 @@ let currentProfile = new Profile(profileData[profileIndex])
 let isWaiting = false
 
 function disliked() {
+
     if (!isWaiting) {
         document.getElementById('disliked-badge').style.display = 'block'
         //Goes to the next object in the profile array
@@ -28,6 +29,7 @@ function disliked() {
 }
 
 function liked() {
+
     if (!isWaiting) {
         document.getElementById('liked-badge').style.display = 'block'
         //Goes to the next object in the profile array
@@ -44,27 +46,31 @@ function liked() {
 }
 //Renders new Profile when user hits like or disliked
 function renderNewProfile() {
+
     currentProfile = new Profile(profileData[profileIndex])
-    renderProfile()
-    renderEndMessage()
+    //If index is at the end of the array then it calls end message function otherwise runs next profile
+    profileIndex === 3 ? renderEndMessage() : renderFirstProfile()
 }
+
+//Renders the homepage profile
+function renderFirstProfile() {
+    document.getElementById('content').innerHTML = currentProfile.getProfileHtml()
+}
+
+renderFirstProfile()
 
 
 //Renders message when user reaches end of array
 function renderEndMessage() {
-    if (profileIndex === 3) {
-        document.getElementById('content').innerHTML = currentProfile.getEndMessageHtml()
-        document.getElementById('like').style.display = 'none'
-        document.getElementById('dislike').style.display = 'none'
+    //sets index to zero so that it does not try and search for a non existing profile after index 2
+    profileIndex = 0
+    document.getElementById('content').innerHTML = currentProfile.getEndMessageHtml()
+    document.getElementById('like').style.display = 'none'
+    document.getElementById('dislike').style.display = 'none'
 
-    }
+
 }
 
-function renderProfile() {
-    document.getElementById('content').innerHTML = currentProfile.getProfileHtml()
-}
-
-renderProfile()
 
 //Even listeners on like and dislike buttons
 document.getElementById('like').addEventListener('click', liked)
