@@ -49,7 +49,7 @@ function renderNewProfile() {
 
     currentProfile = new Profile(profileData[profileIndex])
     //If index is at the end of the array then it calls end message function otherwise runs next profile
-    profileIndex === 3 ? renderEndMessage() : renderFirstProfile()
+    profileIndex === profileData.length ? renderEndMessage() : renderFirstProfile()
 }
 
 //Renders the homepage profile
