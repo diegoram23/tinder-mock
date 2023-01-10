@@ -129,10 +129,9 @@ nav {
     text-align: center;
     font-size: 1.7rem;
     padding:2.8em;
-    color: rgb(80, 77, 77);
 }
 
 /*-----elements with this class will be hidden -----*/
-.hidden{
+.hidden {
     display: none;
 }
