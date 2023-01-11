@@ -23,7 +23,7 @@ function disliked() {
             document.getElementById('disliked-badge').style.display = 'none'
             renderNewProfile()
             isWaiting = false
-        }, 800);
+        }, 700);
 
     }
 }
@@ -40,7 +40,7 @@ function liked() {
             document.getElementById('liked-badge').style.display = 'none'
             renderNewProfile()
             isWaiting = false
-        }, 800);
+        }, 700);
     }
 
 }
