@@ -9,8 +9,8 @@ class Profile {
         const { avatar, name, age, bio } = this
 
         return `<div class="img-container">
-        <img class='liked-badge hidden' id='liked-badge'src='images/like-image.png'>
-        <img class='disliked-badge hidden' id='disliked-badge'src='images/nope-image.png'>
+        <img class='liked-badge hide' id='liked-badge'src='images/like-image.png'>
+        <img class='disliked-badge hide' id='disliked-badge'src='images/nope-image.png'>
         <img class="img" src="${avatar}">
         <h2 class="img-text-info">${name}, ${age}
         <br>

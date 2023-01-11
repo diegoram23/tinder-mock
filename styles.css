@@ -132,6 +132,16 @@ nav {
 }
 
 /*-----elements with this class will be hidden -----*/
-.hidden {
+.hide {
     display: none;
 }
+
+.hidden {
+    opacity: 0;
+    transition: all 1.1s;
+}
+
+.show {
+    opacity: 1;
+}
+
